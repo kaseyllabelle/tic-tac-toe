@@ -1,0 +1,58 @@
+h1
+{
+	margin: 50px auto 0 auto;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	text-align: center;
+	color: #424242;
+}
+
+.board
+{
+	display: block;
+	width: 302px;
+	height: 302px;
+	margin: 50px auto 0 auto;
+}
+
+.row-1,
+.row-2,
+.row-3
+{
+	display: flex;
+	width: 302px;
+	height: 100px;
+}
+
+.col-1,
+.col-2,
+.col-3
+{
+	width: 100px;
+	height: 100px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.row-2
+{
+	border-top: 1px solid #424242;
+	border-bottom: 1px solid #424242;
+}
+
+.col-1
+{
+	border-right: 1px solid #424242;
+}
+
+.col-3
+{
+	border-left: 1px solid #424242;
+}
+
+img
+{
+	width: 60px;
+	height: 60px;
+	padding: 20px;
+}
